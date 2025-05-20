@@ -1,1 +1,51 @@
+/* =====================================
+   Patricia Reszetylo – Global CSS
+   ===================================== */
+
+/* ------------------------------
+   Background General Settings
+------------------------------ */
+html, body {
+  background-image: url('https://res.cloudinary.com/dy7rue6su/image/upload/v1730823736/Taste_the_Adventure_Savor_the_Moments_bshzxd.webp') !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  height: 100% !important;
+  min-height: 100vh !important;
+  overflow-x: hidden !important;
+}
+
+/* Desktop-specific settings */
+@media only screen and (min-width: 769px) {
+  html, body {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    min-height: 100vh !important;
+  }
+}
+
+/* Remove background from containers */
+#wrapper, #main-content {
+  background: none !important;
+}
+
+/* ------------------------------
+   Birch Bark Button
+------------------------------ */
+.birch-bark-button {
+  background-image: url('https://res.cloudinary.com/dy7rue6su/image/upload/v1745854375/Birch_button_bg_pitkq9.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.birch-bark-button:hover {
+  filter: brightness(1.1);
+  transform: scale(1.02);
+}
 
