@@ -55,3 +55,30 @@ html, body {
 .font-rocksalt {
   font-family: 'Rock Salt', cursive;
 }
+.btn-primary-cta {
+  background-color: #556B2F; /* Olive Green */
+  color: #ffffff; /* White text */
+  font-size: 20px;
+  font-weight: 400;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: none;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+}
+
+.btn-primary-cta .subtext {
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff; /* Optional: could customize separately */
+  display: block;
+  margin-top: 5px;
+}
+
+.btn-primary-cta:hover {
+  filter: brightness(1.1);
+  transform: scale(1.02);
+  cursor: pointer;
+}
