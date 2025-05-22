@@ -190,3 +190,50 @@ html, body {
   transform: scale(1.02);
   cursor: pointer;
 }
+.btn-primary-cta:hover,
+.btn-primary-cta:focus {
+  background-color: #688A3B; /* lighter olive */
+  transform: scale(1.02);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+.btn-neutral-passive-2:hover,
+.btn-neutral-passive-2:focus {
+  background-color: #3E5670; /* lighter navy */
+  transform: scale(1.02);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+.btn-support:hover,
+.btn-support:focus {
+  background-color: #783731; /* richer deep red */
+  transform: scale(1.02);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+.btn-secondary-cta:hover,
+.btn-secondary-cta:focus {
+  background-color: #A86F46; /* brighter warm brown */
+  transform: scale(1.02);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+.btn-neutral-passive:hover,
+.btn-neutral-passive:focus {
+  background-color: #3A4B27; /* brighter olive green */
+  transform: scale(1.02);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+.birch-bark-button:hover,
+.birch-bark-button:focus {
+  filter: brightness(1.1);
+  transform: scale(1.02);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
