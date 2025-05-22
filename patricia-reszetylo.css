@@ -136,3 +136,30 @@ html, body {
   transform: scale(1.02);
   cursor: pointer;
 }
+.btn-secondary-cta {
+  background-color: #8C6239; /* Warm golden brown */
+  color: #ffffff; /* White text */
+  font-size: 20px;
+  font-weight: 400;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: none;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+}
+
+.btn-secondary-cta .subtext {
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+  display: block;
+  margin-top: 5px;
+}
+
+.btn-secondary-cta:hover {
+  filter: brightness(1.1);
+  transform: scale(1.02);
+  cursor: pointer;
+}
