@@ -163,3 +163,30 @@ html, body {
   transform: scale(1.02);
   cursor: pointer;
 }
+.btn-neutral-passive {
+  background-color: #283517; /* Deep olive green */
+  color: #ffffff; /* White text */
+  font-size: 20px;
+  font-weight: 400;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: none;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+}
+
+.btn-neutral-passive .subtext {
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+  display: block;
+  margin-top: 5px;
+}
+
+.btn-neutral-passive:hover {
+  filter: brightness(1.1);
+  transform: scale(1.02);
+  cursor: pointer;
+}
