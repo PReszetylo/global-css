@@ -56,17 +56,17 @@ html, body {
   font-family: 'Rock Salt', cursive;
 }
 .btn-primary-cta {
-  background-color: #556B2F; /* Olive Green */
-  color: #ffffff; /* White text */
-  font-size: 20px;
-  font-weight: 400;
-  padding: 15px 20px;
-  border: none;
-  border-radius: 5px;
-  text-align: center;
+  background-color: #556B2F !important;
+  color: #ffffff !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  padding: 15px 20px !important;
+  border: none !important;
+  border-radius: 5px !important;
+  text-align: center !important;
   text-transform: none;
   transition: all 0.2s ease-in-out;
-  display: inline-block;
+  display: inline-block !important;
 }
 
 .btn-primary-cta .subtext {
